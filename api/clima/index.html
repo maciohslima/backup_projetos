@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Clima</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/standard.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
+<header></header>
 <body>
-    
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+             <input type="text" name="location" placeholder="Insira Sua Localidade">
+             <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="./assets/img/404.png" alt="Not Found">
+            <p>Oops! Localização Inválida</p>
+        </div>
+    </div>
+
+    <div class="weather-box">
+        <img src="">
+        <p class="temperature"></p>
+        <p class="description"></p>
+    </div>
+
+    <div class="weather-details">
+        <div class="humidity">
+            <i class="fa-solid fa-water"></i>
+            <div class="text">
+                <span></span>
+                <p>Humidade</p>
+            </div>
+        </div>
+        <div class="wind">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+                <span></span>
+                <p>Velocidade do Vento</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Script -->
+    <!-- <script src="./assets/js/index.js"></script> -->
+    <script src="https://kit.fontawesome.com/10b61ae4b3.js" crossorigin="anonymous"></script>
 </body>
+<!-- <footer>
+    <p>Criado por <a href="http://maciohslima.github.io/linktree" target="_blank">MacioHSLima</a></p>
+</footer> -->
 </html>
