@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/standard.css">
+    <link rel="stylesheet" href="./assets/css/tempo.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/10b61ae4b3.js" crossorigin="anonymous"></script>
+
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <div class="caixa-maior">
+
+        <input type="text" placeholder="Digite o nome da cidade" class="input-cidade">
+        <button onclick="btnClick()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em Paulista</h2>
+            <p class="temp">27ºC</p>
+            
+            <div class="caixa-menor">
+                <img src="https://openweathermap.org/img/wn/04n.png" class="icone">
+                <p class="descricao">Nublado</p>
+            </div>
+            
+            <div class="detalhes">
+                <p class="umidade"><i class="fa-solid fa-water"></i> 70%</p>
+                <p class="vento"><i class="fa-solid fa-wind"></i> 3.85KM</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/tempo.js"></script>
+</body>
+</html>
